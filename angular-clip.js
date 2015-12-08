@@ -1,7 +1,7 @@
-angular.module('angularClipboard', []).
-service('Clipboard', function(document) {
-    this.copyValue = function (text) {
-        var textArea = $document.createElement("textarea");
+angular.module('angularClip', []).
+service('Clipboard', function() {
+    this.clipValue = function (text) {
+        var textArea = document.createElement("textarea");
 
         textArea.style.position = 'fixed';
         textArea.style.top = 0;
@@ -25,7 +25,7 @@ service('Clipboard', function(document) {
         textArea.select();
 
         try {
-            var successful = $document.execCommand('copy');
+            var successful = document.execCommand('copy');
         } catch (err) {
             console.log('Exec command is not supported');
         }

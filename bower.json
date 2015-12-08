@@ -5,7 +5,7 @@
     "colmer <colmer@yandex.ru>"
   ],
   "description": "Angular service for clipboard values",
-  "main": "angular-clipboard.js",
+  "main": "angular-clip.js",
   "keywords": [
     "clipboard",
     "angular",
