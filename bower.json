@@ -1,0 +1,25 @@
+{
+  "name": "angular-clip",
+  "version": "0.0.1",
+  "authors": [
+    "colmer <colmer@yandex.ru>"
+  ],
+  "description": "Angular service for clipboard values",
+  "main": "angular-clipboard.js",
+  "keywords": [
+    "clipboard",
+    "angular",
+    "ng-cliboard"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "*"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
